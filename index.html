@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=7" /> 
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script  type="text/javascript" src="general.js"></script>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="feedback-box">
+			<h2>Форма </h2>
+		
+			<form id="feedback-form">
+ 
+
+				 <div class="input-bloc w1">
+					 <label for="name">Имя:</label>
+					 <input type="text"  size="25" id="name" name="name"   >
+					 <div class="error-box"></div>
+				 </div>
+				 <div class="input-bloc w1">
+					 <label for="phone">Телефон:</label>
+					 <input type="text"  size="25"  id="phone" name="phone"  >
+					 <div class="error-box"></div>
+				 </div>
+				 <div class="input-bloc w1">
+					 <label>E-mail:</label>
+					 <input type="text" size="25"  id="email" name="email">
+					 <div class="error-box"></div>
+				 </div>
+				 <div "input-bloc msg">
+					 <label for="message">Текст сообщения:</label>
+					<textarea name="message" cols="50" rows="10" id="message"></textarea>
+					<div class="error-box"></div>
+				 </div>
+				 
+				 <div><input type="submit" id="send" value="Отправить сообщение"  /></div>
+   
+			</form>
+		</div>
+	</body>
+
+</html>
